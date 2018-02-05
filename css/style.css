@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto+Slab|Josefin+Sans:300,400');
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 500%;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 0px 250px #000;
+}
+
+h2 {
+  font-size: 250%;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 2%;
+  text-decoration: none;
+}
+
+.content h2 {
+  padding: 0;
+}
+
+h3, h4 {
+  padding-top: 4%;
+}
+
+h4 img {
+  max-width: 80px;
+}
+
+.portfolio-caption h4, .portfolio-caption p {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #FFF;
+  font-size: 100%;
+  line-height: 180%;
+  font-weight: 800;
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+.content h1 {
+  padding-top: 25%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Navigation menu */
+
+#mainNav .navbar-brand {
+  color: #fff;
+  font-family: 'Kaushan Script', serif, cursive;
+}
+
+nav.navbar {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #494646;
+  text-shadow: none;
+}
+
+.navbar-no-bg {
+  padding-top: 10px;
+  background: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar.compressed {
+  background: #05947b;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  color: #fff;
+}
+
+.collapse ul li a {
+  color: #191918;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+/*-- Intro --*/
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url("../img/laptop.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  display: table;
+  top: 0;
+}
+
+.content {
+  margin: auto;
+}
+
+.content p {
+  padding-right: 50%;
+  padding-top: 5%;
+  font-size: 140%;
+}
+
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+  margin: auto;
+  font-size: 120%;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+/*-- Other --*/
+
+section {
+  padding-top: 8%;
+  padding-bottom: 12%;
+}
+
+#projects {
+  padding-top: 2%;
+}
+
+#about h2, .contact h2 {
+  color: #2c2c2c;
+}
+
+.contact p {
+  text-align: center;
+  color: #212529;
+}
+
+.contact a {
+  color: #2C2C2C;
+}
+
+/*-- Lines --*/
+
+hr.dark-line {
+  max-width: 15rem;
+  padding: 0;
+  border-top: solid 0.15rem;
+  margin-top: 1.5rem;
+  padding: 30px 0;
+  border-color: #2c3e50;
+  border-style: dashed;
+}
+
+hr.grey-line {
+  max-width: 15rem;
+  padding: 0;
+  border-top: solid 0.15rem;
+  margin-top: 1.5rem;
+  padding: 30px 0;
+  border-color: #e0ded6;
+  border-style: dashed;
+}
+
+/*-- Backgrounds & colors --*/
+
+#about {
+  background-image: url(../img/seamless_paper_texture.png);
+  text-align: center;
+}
+
+#about p {
+  color: #353535;
+  font-size: 120%;
+}
+
+#projects {
+  background-image: url(../img/darkdenim3.png);
+  color: #dfdcd3;
+}
+
+#projects p {
+  color: #dfdcd3;
+}
+
+/*-- Contact --*/
+
+#contact {
+  background-image: url(../img/seamless_paper_texture.png);
+  color: #353535;
+  text-align: center;
+}
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+textarea.form-control {
+  height: 100px;
+}
+
+.col-lg-12 h2 {
+  padding-bottom: 50px;
+}
+
+.hover-img figure img {
+  height: 250px;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.hover-img figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.hover-img figure:hover img {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+ul.navbar-nav {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  color: #888;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+footer {
+  clear: both;
+  background: #333333;
+  height: 50px;
+  text-align: center;
+  color: #cccccc;
+  font-size: 12px;
+  line-height: 50px;
+}
+
+.footer p {
+  color: #FFF;
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  nav ul, nav:active ul {
+    padding: 8px 0;
+    left: 23px;
+    top: 34px;
+    width: 100%;
+    text-align: center;
+  }
+  .parallax, .parallax2 {
+    display: none;
+  }
+  .content p {
+    padding-right: 50%;
+    padding-top: 2%;
+    font-size: 100%;
+  }
+  .acc-container {
+    width: 95%;
+    /** Starting **/
