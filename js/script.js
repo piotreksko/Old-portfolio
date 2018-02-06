@@ -31,7 +31,7 @@ $(document).ready(function() {
 
 
   window.sr = ScrollReveal();
-  if(window.innerWidth > 568){
+  if(window.innerWidth > 768){
   sr.reveal('.sr-icons', {
     duration: 1100,
     scale: 0.3,
