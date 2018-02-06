@@ -70,8 +70,12 @@ p {
 nav.navbar {
   -webkit-transition: all 0.4s ease;
   transition: all 0.3s ease;
-}
 
+}
+#navbarResponsive.collapse.show {
+  background-color: #05947b;
+  width: 100%;
+}
 nav a:hover {
   background-color: #494646;
   text-shadow: none;
@@ -93,7 +97,6 @@ nav a:hover {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  color: #fff;
 }
 
 .collapse ul li a {
@@ -101,6 +104,7 @@ nav a:hover {
   text-decoration: none;
   font-size: 1.3em;
 }
+
 
 /*-- Intro --*/
 
@@ -284,9 +288,12 @@ footer {
     width: 100%;
     text-align: center;
   }
-  .parallax, .parallax2 {
-    display: none;
-  }
+h1 {
+    font-size: 250%;
+}
+h2 {
+  font-size: 120%;
+}
   .content p {
     padding-right: 50%;
     padding-top: 2%;
