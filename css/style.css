@@ -129,10 +129,10 @@ nav a:hover {
 }
 
 .inner {
-  display: table-cell;
+
   vertical-align: middle;
   width: 100%;
-  max-width: none;
+
   margin: auto;
   font-size: 120%;
   line-height: 1.6;
@@ -291,6 +291,7 @@ footer {
 h1 {
     font-size: 250%;
 }
+
 h2 {
   font-size: 120%;
 }
