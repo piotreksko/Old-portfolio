@@ -278,7 +278,9 @@ footer {
   margin-top: 5%;
 }
 
-
+.portfolio-item figure img {
+  object-fit: contain;
+}
 
 @media screen and (max-width: 768px) {
   nav ul, nav:active ul {
