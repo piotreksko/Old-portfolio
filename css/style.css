@@ -37,6 +37,17 @@ h4 img {
   max-width: 80px;
 }
 
+h6 {
+  font-size: 1rem;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-radius: 5px;
+  text-align: justify;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
 .portfolio-caption h4, .portfolio-caption p {
   text-align: center;
   padding-bottom: 20px;
@@ -279,7 +290,11 @@ footer {
 }
 
 .portfolio-item figure img {
-  object-fit: contain;
+  width: 20rem;
+  height: 20rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 768px) {
